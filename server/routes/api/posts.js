@@ -1,6 +1,5 @@
 const express = require('express')
 const firebase = require('./firebase')
-const { route } = require('../../../../../Projects/ZARKACADEMY/ZarkAcademy MYWORK/server/routes/api/posts')
 const db = firebase.firestore()
 
 const router = express.Router()
