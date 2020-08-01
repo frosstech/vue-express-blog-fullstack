@@ -14,7 +14,7 @@ router.get('/', async (req, res) => {
         posts.push({
             id: doc.id,
             content: doc.data().content,
-            createdAt: new Date()
+            createdAt: doc.data().createdAt
         })
     })
 
